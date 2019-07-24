@@ -1,0 +1,106 @@
+/*Test1*/
+
+body{
+    margin-left:0px;
+}
+
+#block1 {
+    position: relative;
+    background-color: #abc;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    ;
+}
+
+#block2 {
+    position: absolute;
+    top: 29px;
+    background-color: rebeccapurple;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    
+}
+
+#block3 {
+    position: absolute;
+    top: 29px;
+    left:0px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    
+}
+#block4 {
+    position: absolute;
+    top: 29px;
+    left:-200px;
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    
+}
+#block5 {
+    position: absolute;
+    top: 29px;
+    left:-400px;
+    background-color: mediumorchid;
+    width: 200px;
+    height: 200px;
+    
+}
+
+/*test2*/
+
+#slider{
+  overflow:hidden; 
+  background-color:#eee;
+  margin:auto;
+  position:relative;
+}
+.slideshow{
+  height:300px;
+  position:relative;
+
+}
+.slide{
+  width:70%;
+    margin: auto;
+  height:300px;
+  float:left;
+  text-align:center;
+  line-height:150px;
+  position:relative;
+}
+a.left, a.right{
+  position:absolute;
+  width:20px;
+  height:20px;
+   top:40%;
+  text-decoration:none;
+  background-color:#333;
+  color:#fff;
+  text-align:center;
+  line-height:20px;
+}
+
+a.right{
+  right:0;
+}
+
+a.left{
+    left:0;
+}
+#slide1{
+    background-image: url("../html/pictures/bike_Slide_1.jpg");
+}
+#slide2{
+    background-image: url("../html/pictures/bike_Slide_2.jpg")
+}
+#slide3{
+    background-image: url("../html/pictures/bike_Slide_3.jpg");
+}
+#slide4{
+    background-image: url("../html/pictures/bike_Slide_4.jpg");
+}

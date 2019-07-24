@@ -1,0 +1,109 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>VeloV, la location de Velo Virtuelle</title>
+    <!--Bootstrap-->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <!-- leaflet map -->
+    <link crossorigin="" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/veloV.css">
+    <link rel="icon" href="pictures/bike.png"/>
+</head>
+
+<body>
+<header>
+    <h1> VeloV, la location de Velo Virtuelle</h1>
+</header>
+<div class="slider">
+    <div id="slides">
+
+        <figure class="slide one" id="slide_one">
+            <img src="pictures/bike_Slide_1.jpg" alt="Velo de ville rouge dans un support devant un batiment">
+            <figcaption>
+                <h2>Partez à la découverte de la ville en vélo !</h2>
+                <p>Ecologique, Pratique, Rapide.<br/>Avec VeloV, redécouvrez la ville et facilitez-vous la vie !</p>
+
+            </figcaption>
+        </figure>
+        <figure class="slide" id="slide_two">
+            <img src="pictures/bike_Slide_2.jpg" alt="Velo rouge avec panier appuyé contre un mur">
+            <figcaption>
+                <h2>Sélectionnez une station sur la carte</h2>
+                <p class="p2">Chaque station vous renseigne en temps réel sur le nombre de vélos encore disponibles.</p>
+                <p>Lorsque vous avez selectionné votre station, cliquez sur réserver .</p>
+
+            </figcaption>
+        </figure>
+        <figure class="slide" id="slide_three">
+            <img src="pictures/bike_Slide_3.jpg" alt="Velo rouge avec panier vu de derrière dans une rue">
+            <figcaption>
+                <h2>Remplissez et signez le formulaire</h2>
+                <p>Remplissez le formulaire avec votre nom et prénom.</p>
+                <p class="p2"> Signez dans l'espace prévu à cet effet.</p>
+
+            </figcaption>
+        </figure>
+        <figure class="slide" id="slide_four">
+            <img src="pictures/bike_Slide_4.jpg" alt="personne en short qui part en velo de nuit">
+            <figcaption>
+                <h2>Rendez vous à la station avant la fin du temps imparti</h2>
+                <p>Un compte à rebours s'affiche : Vous avez 20 minutes pour vous rendre à la station et récupérer
+                    votre vélo réservé.</p>
+
+            </figcaption>
+        </figure>
+    </div>
+    <div class="backward">
+        <i class="fas fa-arrow-circle-left fa-3x"></i>
+    </div>
+    <div class="forward">
+        <i class="fas fa-arrow-circle-right fa-3x"></i>
+    </div>
+    <div class="pause">
+        <i class="far fa-pause-circle fa-3x"></i>
+    </div>
+</div>
+
+<!--MAP-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="mymap">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+</footer>
+<!--Bootstrap-->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- leaflet map-->
+<script crossorigin=""
+        integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+        src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="https://kit.fontawesome.com/e34582b42b.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../js/ajax.js"></script>
+<script src="../js/veloV.js"></script>
+<script src="../js/map.js"></script>
+<script src="../js/app.js"></script>
+</body>
+
+</html>

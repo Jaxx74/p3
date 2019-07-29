@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>VeloV, la location de Velo Virtuelle</title>
+    <title>Green Bike, la location de Velo Virtuelle</title>
     <!--Bootstrap-->
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
@@ -12,18 +12,19 @@
           integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
           rel="stylesheet"/>
     <link rel="stylesheet" href="../css/veloV.css">
-    <link rel="icon" href="pictures/bike.png"/>
+    <link rel="icon" href="../pictures-/bicycle%20(1).png"/>
 </head>
 
 <body>
 <header>
-    <h1> VeloV, la location de Velo Virtuelle</h1>
+    
+    <h1><strong>Green Bike</strong>, la location de Velo Virtuelle Eco-Responsable</h1>
 </header>
 <div class="slider">
     <div id="slides">
 
         <figure class="slide one" id="slide_one">
-            <img src="pictures/bike_Slide_1.jpg" alt="Velo de ville rouge dans un support devant un batiment">
+            <img src="../pictures-/slide1.jpg" alt="Velo de ville rouge dans un support devant un batiment">
             <figcaption>
                 <h2>Partez à la découverte de la ville en vélo !</h2>
                 <p>Ecologique, Pratique, Rapide.<br/>Avec VeloV, redécouvrez la ville et facilitez-vous la vie !</p>
@@ -31,11 +32,11 @@
             </figcaption>
         </figure>
         <figure class="slide" id="slide_two">
-            <img src="pictures/bike_Slide_2.jpg" alt="Velo rouge avec panier appuyé contre un mur">
+            <img src="../pictures-/slide2.jpg" alt="Velo rouge avec panier appuyé contre un mur">
             <figcaption>
                 <h2>Sélectionnez une station sur la carte</h2>
-                <p class="p2">Chaque station vous renseigne en temps réel sur le nombre de vélos encore disponibles.</p>
-                <p>Lorsque vous avez selectionné votre station, cliquez sur réserver .</p>
+                <p class="p2">Chaque station vous renseigne en temps réel sur le nombre de vélos encore disponibles</p>
+                <p>Lorsque vous avez selectionné votre station, cliquez sur réserver</p>
 
             </figcaption>
         </figure>
@@ -43,17 +44,17 @@
             <img src="pictures/bike_Slide_3.jpg" alt="Velo rouge avec panier vu de derrière dans une rue">
             <figcaption>
                 <h2>Remplissez et signez le formulaire</h2>
-                <p>Remplissez le formulaire avec votre nom et prénom.</p>
-                <p class="p2"> Signez dans l'espace prévu à cet effet.</p>
+                <p>Remplissez le formulaire avec votre nom et prénom</p>
+                <p class="p2"> Signez dans l'espace prévu à cet effet</p>
 
             </figcaption>
         </figure>
         <figure class="slide" id="slide_four">
             <img src="pictures/bike_Slide_4.jpg" alt="personne en short qui part en velo de nuit">
             <figcaption>
-                <h2>Rendez vous à la station avant la fin du temps imparti</h2>
+                <h2>Rendez vous à la station</h2>
                 <p>Un compte à rebours s'affiche : Vous avez 20 minutes pour vous rendre à la station et récupérer
-                    votre vélo réservé.</p>
+                    votre vélo réservé</p>
 
             </figcaption>
         </figure>
@@ -75,6 +76,8 @@
     <div class="row">
         <div class="col-lg-12">
             <div id="mymap">
+                <div id="stations">
+                </div>
             </div>
         </div>
     </div>
@@ -103,6 +106,7 @@
 <script src="../js/ajax.js"></script>
 <script src="../js/veloV.js"></script>
 <script src="../js/map.js"></script>
+<script src="../js/stations.js"></script>   
 <script src="../js/app.js"></script>
 </body>
 

@@ -7,9 +7,3 @@ function nextSlide(){
 	currentSlide = (currentSlide+1)%slides.length;
 	slides[currentSlide].className = 'slide one';
 }
-
-
-//test perso
-$("#test").on('click',function(){
-    $("#test").fadeOut(25000);
-});

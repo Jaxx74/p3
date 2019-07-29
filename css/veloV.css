@@ -1,133 +1,197 @@
-/*MEDIA QUERIES*/
+/*GENERAL*/
 
-    /* Extra small devices (phones, up to 480px) */
+body {
+    background-color: #2c3434;
+}
 
-    /* Small devices (tablets, 768px and up) */
-    @media (min-width:768px) {
-        .container{
-            width:750px;
-        }
-    }
+h1 {
+    color: #c4e8cc;
+}
 
-    /* Medium devices (tablets, 992px and up) */
-    @media (min-width:992px) {
-        .container{
-            width:970px;
-        }
-    }
-
-    /* Large devices (large desktops, 1200px and up) */
-    @media (min-width:1200px) {
-        .container{
-            width:1170px;
-        }
-    }
-
-
+strong {
+    color: #82c46c;
+}
 
 /*SLIDE*/
 
 
-    #slider {
-        background-color: darkgrey;
-        height: 500px;
-        border-radius: 1em;
-        overflow: hidden;
-        position: relative;
+#slider {
+    background-color: darkgrey;
+    height: 500px;
+    border-radius: 0.2em;
+    overflow: hidden;
+    position: relative;
 
+}
+
+#content {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.slider {
+    position: relative;
+}
+
+.backward,
+.forward {
+    position: absolute;
+    top: 70%;
+    cursor: pointer;
+    z-index: 10;
+    margin: 3em;
+    text-shadow: 0px 5px 5px #ccc;
+}
+
+.backward {
+    left: 1em;
+}
+
+.forward {
+    right: 1em;
+}
+
+#slides {
+    position: relative;
+    height: 700px;
+    padding: 0px;
+    margin: 30px;
+    border-radius: 0.2em;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 2s;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s;
+}
+
+.one {
+    opacity: 1;
+    z-index: 2;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+}
+
+figcaption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+figcaption h2 {
+    position: absolute;
+    color: #c4e8cc;
+    right: -1em;
+    top: -1em;
+    border-bottom-left-radius: 109%;
+    border-bottom-right-radius: 33%;
+    border-top-left-radius: 31%;
+
+    background-color: #468162e8;
+    border-bottom: solid 0.5em #c4e8cc;
+    margin: 0;
+    padding: 1.2em;
+    text-align: center;
+
+}
+
+figcaption p {
+    color: #c4e8cc;
+    background-color: #468162e8;
+    border-top-right-radius: 21%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 21%;
+    border-bottom-right-radius: 2%;
+    border-top: solid 0.5em #c4e8cc;
+    position: absolute;
+    width: 100%;
+    top: 14em;
+    padding: 1em;
+}
+
+figcaption .p2 {
+    top: 23em;
+    border-bottom: solid 0.5em #c4e8cc;
+    border-top: none;
+}
+
+
+/* LEAFLET MAP */
+
+#mymap {
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+
+/*leaflet clusters*/
+
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+	-webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-moz-transition: -moz-transform 0.3s ease-out, opacity 0.3s ease-in;
+	-o-transition: -o-transform 0.3s ease-out, opacity 0.3s ease-in;
+	transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+}
+
+.leaflet-cluster-spider-leg {
+	/* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+	-webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+	-moz-transition: -moz-stroke-dashoffset 0.3s ease-out, -moz-stroke-opacity 0.3s ease-in;
+	-o-transition: -o-stroke-dashoffset 0.3s ease-out, -o-stroke-opacity 0.3s ease-in;
+	transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+
+
+/*MEDIA QUERIES*/
+
+/* Extra small devices (phones, up to 480px) */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width:768px) {
+    .container {
+        width: 750px;
     }
+}
 
-    #content {
-
-        display: flex;
-        justify-content: space-between;
-
+/* Medium devices (tablets, 992px and up) */
+@media (min-width:992px) {
+    .container {
+        width: 970px;
     }
+}
 
-    .slider {
-        position: relative;
-    }
-
-    .backward,
-    .forward {
-        position: absolute;
-        top: 70%;
-        cursor: pointer;
-        z-index: 10;
-        margin: 3em;
-        text-shadow: 0px 5px 5px #ccc;
-    }
-
-    .backward {
-        left: 1em;
-    }
-
-    .forward {
-        right: 1em;
-    }
-
-    #slides {
-        position: relative;
-        height: 700px;
-        padding: 0px;
-        margin: 30px;
-        border-radius: 1em;
-        overflow: hidden;
-    }
-
-    .slide {
-        position: absolute;
-        opacity: 0;
-        z-index: 1;
-
-        -webkit-transition: opacity 2s;
-        -moz-transition: opacity 2s;
-        -o-transition: opacity 2s;
-        transition: opacity 2s;
-    }
-
-    .one {
-        opacity: 1;
-        z-index: 2;
-    }
-
-    figure {
-        width: 100%;
-        margin: 0;
-    }
-
-    figcaption {
-        position: absolute;
-        top: 0;
-        width: 100%;
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
     }
 
     figcaption h2 {
-        background-color: #df6e6ea3;
-        margin: 0;
-        padding: 1em;
-        text-align: center;
+
+        height: 8em;
+        width: 19em;
+        padding: 2em;
     }
 
     figcaption p {
-        background-color: #e79e8fc9;
         width: 30%;
-        position: absolute;
-        right: 10em;
-        top: 10em;
-        border-radius: 1em;
+        left: 48em;
+        top: 11em;
         padding: 2em;
     }
 
     figcaption .p2 {
         top: 20em;
     }
-
-
-/* LEAFLET MAP */
-
-    #mymap {
-        height: 500px;
-        width: 80%;
-        margin:auto;
-    }
+}

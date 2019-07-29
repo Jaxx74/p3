@@ -62,3 +62,31 @@ $(function(){
  
   
 });
+
+
+//test map clusters//
+
+var map = L.map('cluster').setView([46.90296, 1.90925], 6);
+
+var stamenToner = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png', {
+    attribution: 'Map tiles by Stamen Design, CC BY 3.0 — Map data © OpenStreetMap',
+    subdomains: 'abcd',
+    minZoom: 0,
+    maxZoom: 20,
+    ext: 'png'
+});
+
+map.addLayer(stamenToner);
+
+
+
+var markersCluster = new L.MarkerClusterGroup();
+
+var cities = getCities();
+for (var i = 0; i < cities.length; i++) {
+    var latLng = new L.LatLng(cities[i][1], cities[i][2]);
+    var marker = new L.Marker(latLng, {title: cities[i][0]});
+    markersCluster.addLayer(marker);
+}
+
+map.addLayer(markersCluster);

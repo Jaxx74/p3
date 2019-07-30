@@ -13,6 +13,13 @@
           rel="stylesheet"/>
     <link rel="stylesheet" href="../css/veloV.css">
     <link rel="icon" href="../pictures-/bicycle%20(1).png"/>
+    <!--clusters -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+    <link rel="stylesheet" href="../css/MarkerCluster.css">
+    <link rel="stylesheet" href="../css/MarkerCluster.Default.css">
+
 </head>
 
 <body>
@@ -24,7 +31,7 @@
     <div id="slides">
 
         <figure class="slide one" id="slide_one">
-            <img src="../pictures-/slide1.jpg" alt="Velo de ville rouge dans un support devant un batiment">
+            <img src="../pictures-/slide1.jpg" alt="">
             <figcaption>
                 <h2>Partez à la découverte de la ville en vélo !</h2>
                 <p>Ecologique, Pratique, Rapide.<br/>Avec VeloV, redécouvrez la ville et facilitez-vous la vie !</p>
@@ -32,7 +39,7 @@
             </figcaption>
         </figure>
         <figure class="slide" id="slide_two">
-            <img src="../pictures-/slide2.jpg" alt="Velo rouge avec panier appuyé contre un mur">
+            <img src="../pictures-/slide2.jpg" alt="">
             <figcaption>
                 <h2>Sélectionnez une station sur la carte</h2>
                 <p class="p2">Chaque station vous renseigne en temps réel sur le nombre de vélos encore disponibles</p>
@@ -41,7 +48,7 @@
             </figcaption>
         </figure>
         <figure class="slide" id="slide_three">
-            <img src="pictures/bike_Slide_3.jpg" alt="Velo rouge avec panier vu de derrière dans une rue">
+            <img src="../pictures-/bike_Slide_3.jpg" alt="">
             <figcaption>
                 <h2>Remplissez et signez le formulaire</h2>
                 <p>Remplissez le formulaire avec votre nom et prénom</p>
@@ -50,7 +57,7 @@
             </figcaption>
         </figure>
         <figure class="slide" id="slide_four">
-            <img src="pictures/bike_Slide_4.jpg" alt="personne en short qui part en velo de nuit">
+            <img src="../pictures-/bike_Slide_4.jpg" alt="">
             <figcaption>
                 <h2>Rendez vous à la station</h2>
                 <p>Un compte à rebours s'affiche : Vous avez 20 minutes pour vous rendre à la station et récupérer
@@ -101,6 +108,9 @@
 <script crossorigin=""
         integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
         src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+<!-- clusters -->
+
+<script src="../js/leaflet.markercluster.js"></script>
 <script src="https://kit.fontawesome.com/e34582b42b.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="../js/ajax.js"></script>

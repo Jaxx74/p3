@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867cc4db-bfcd-48ab-838e-94c6e34204d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/leaflet.markercluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bicycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike-zone-signal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_Slide_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_Slide_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_map_marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_map_marker3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_slide_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/bike_slide_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pictures-/chris-barbalis-NjuWkkg_ZuM-unsplash.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/veloV.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/veloV.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/anthony-ginsbrook-8ol9rD0BHAU-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/bike_map_marker2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/bike_map_marker2.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/christian-stahl-xmGkzY--Fgg-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/christin-hume-OYAj7gJbhlo-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/clique-studios-Qr-7vwzI6uk-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/dakota-corbin-fisvoU9bf-k-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/lauren-kay-6OJvXwAj02w-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/lexi-ruskell-BfezrueCMEI-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/linda-xu-wolwSgRH3XI-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/louis-lo-obLf_6nGyA0-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/markus-spiske-hDfwmVQ2vNw-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/seth-doyle-TTxHc9Os9FA-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/stephen-kraakmo-eNZZNZA7p7c-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/viktor-kern-0gLH1kqRldc-unsplash.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pictures/wayne-bishop-7YUW7fvIYoQ-unsplash.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/html/veloV.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/veloV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/ajax2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/veloV.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/veloV.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +30,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1OgZ42AdzeQemN89M6p2rtR9VsY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -57,12 +53,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.veloV.html (1)">
+    <configuration name="veloV.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet 3/html/veloV.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="veloV.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Projet 3/p3_docs/html/veloV.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.veloV.html (1)" />
         <item itemvalue="JavaScript Debug.veloV.html" />
       </list>
     </recent_temporary>
@@ -83,7 +83,8 @@
       <workItem from="1563984472517" duration="1093000" />
       <workItem from="1563987546410" duration="272000" />
       <workItem from="1563989101396" duration="700000" />
-      <workItem from="1564401019050" duration="412000" />
+      <workItem from="1564401019050" duration="1842000" />
+      <workItem from="1564469367768" duration="14279000" />
     </task>
     <servers />
   </component>
@@ -95,10 +96,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

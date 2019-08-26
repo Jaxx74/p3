@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="867cc4db-bfcd-48ab-838e-94c6e34204d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/Map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/MyPopup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/greenBike.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/greenBike.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/GreenBike.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/GreenBike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/MyMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/MyMarker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/MyMarker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/marker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/MyMarker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/stations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/stations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/leaflet.markercluster.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/leaflet.markercluster.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/stations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/MyStations.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +22,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1OgZ42AdzeQemN89M6p2rtR9VsY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,7 +86,9 @@
       <workItem from="1564401019050" duration="1842000" />
       <workItem from="1564469367768" duration="15377000" />
       <workItem from="1564561139054" duration="3104000" />
-      <workItem from="1564649677918" duration="12957000" />
+      <workItem from="1564649677918" duration="16013000" />
+      <workItem from="1565681878885" duration="7892000" />
+      <workItem from="1566794749626" duration="2238000" />
     </task>
     <servers />
   </component>

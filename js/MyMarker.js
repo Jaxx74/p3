@@ -1,5 +1,5 @@
-class MyMarker
-{
+class MyMarker{
+
     create(station){
         let bikeIcon = L.icon({
             iconUrl: '../pictures-/bike_map_marker3.png',
